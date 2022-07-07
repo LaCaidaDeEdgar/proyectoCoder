@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	width: 200px;
+	color: white;
+	font-family: 'Bebas Neue';
+	font-size: 20px;
+	background-color: linear-gradient(to top left, #F4B942, #4059AD);
+	background: linear-gradient(to top left, #F4B942, #4059AD);
+	border-style: none;
+	transition: background 1s;
+
+	position: relative;
+	/*left: -300px;*/
+}
+
+.barrita {
+	font-size: 40px;
+	cursor: pointer;
+	height: auto;
+}
+
+#check {
+	display: none;
+}
+
+#check:checked ~ .button {
+	left: 100px;
+}
