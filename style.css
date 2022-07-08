@@ -146,6 +146,9 @@ a {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+
+		position: relative;
+		left: 25%;
 		padding-right: 3vw;
 	}
 
@@ -162,9 +165,9 @@ a {
 	}
 
 	.mainNav__listCont {
+		order: 3;
 		position: relative;
 		top: calc(100vh / 2);
-		/*left: calc(50vw - 140px);*/
 
 		width: 280px;
 		min-width: 280px;
@@ -207,8 +210,8 @@ a {
 	}
 
 	.mainNav__listCont__list__item__link:hover {
-	color: var(--color-white);
-	background-color: transparent;
+		color: var(--color-white);
+		background-color: transparent;
 	}
 
 	#check:checked ~ .mainNav__listCont {
