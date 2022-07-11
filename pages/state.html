@@ -12,34 +12,39 @@
 	<header>
 		<nav class="mainNav">
 			<div class="mainNav__headerLogo">
-				<a href="../index.html" target="_top"><img src="../img/icons/headerLogoC.png" height="35px" alt="Logo de Lhotse"></a>
+				<a href="../index.html"><img src="../img/icons/headerLogoC.png" class="mainNav__headerLogo__icon" alt="Logo de Lhotse"></a>
 			</div>
+			<input type="checkbox" id="check" class="mainNav__checkbox">
 			<div class="mainNav__listCont">
 				<ul type="none" class="mainNav__listCont__list">
 					<li class="mainNav__listCont__list__item">
-						<a href="./galery.html" class="mainNav__listCont__list__item__link" target="_top">Galería</a>
+						<a href="./galery.html" class="mainNav__listCont__list__item__link">Galería</a>
 					</li>
 					<li class="mainNav__listCont__list__item">
-						<a href="./state.html" class="mainNav__listCont__list__item__link" target="_top">Estado</a>
+						<a href="./state.html" class="mainNav__listCont__list__item__link">Estado</a>
 					</li>
 					<li class="mainNav__listCont__list__item">
-						<a href="../notReady/notReady.html" class="mainNav__listCont__list__item__link" target="_top">Trabaja con nosotros</a>
+						<a href="../notReady/notReady.html" class="mainNav__listCont__list__item__link">Trabaja con nosotros</a>
 					</li>
 					<li class="mainNav__listCont__list__item">
-						<a href="../notReady/notReady.html" class="mainNav__listCont__list__item__link" target="_top">Ubicación</a>
+						<a href="../notReady/notReady.html" class="mainNav__listCont__list__item__link">Ubicación</a>
 					</li>
 				</ul>
 			</div>
-			<a href="https://www.meteored.com.ar/tiempo-en_San+Carlos+de+Bariloche-America+Sur-Argentina-Rio+Negro-SAZS-1-16916.html" target="_blank">
-				
-			<div class="mainNav__weather">
-					<img src="../img/icons/weatherIcon.png" class="mainNav__weather__img">
-					<div class="mainNav__weather__temp">
-					<span class="mainNav__weather__temp__number">7</span>
-					<span class="mainNav__weather__temp__unit">C°</span>
-				</div>
+			<div class="mainNav__resp">
+				<a class="mainNav__resp__weather" href="https://www.meteored.com.ar/tiempo-en_San+Carlos+de+Bariloche-America+Sur-Argentina-Rio+Negro-SAZS-1-16916.html" target="_blank">
+					<div class="mainNav__resp__weather__graphCont">
+							<img src="../img/icons/weatherIcon.png" class="mainNav__resp__weather__graphCont__img">
+							<div class="mainNav__resp__weather__graphCont__temp">
+							<span class="mainNav__resp__weather__graphCont__temp__number">7</span>
+							<span class="mainNav__resp__weather__graphCont__temp__unit">C°</span>
+						</div>
+					</div>
+				</a>
+				<label for="check" class="mainNav__resp__label">
+					<i class="fa-solid fa-bars mainNav__resp__label__menuIcon"></i>
+				</label>
 			</div>
-			</a>
 		</nav>
 	</header>
 	<main>
